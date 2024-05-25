@@ -48,7 +48,7 @@ async function handleRequest(request) {
 			},
 			body: rostream,
 		});
-	} else if (method === 'GET' && headers.get('Accept') === jstontype) {
+	} else {
 		// 如果是GET请求，并且Accept头部是'application/dns-json'
 		const search = new URL(url).search; // 获取查询字符串
 		res = await fetch(dohjson + search, {
