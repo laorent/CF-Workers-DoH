@@ -1,7 +1,0 @@
-name = "doh"
-workers_dev = true
-compatibility_date = "2024-01-26"
-main = "index.js"
-
-[placement]
-mode = "smart"
